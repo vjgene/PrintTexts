@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TableLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:paddingTop="4dip"
+     android:paddingBottom="6dip"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal">
+<TableRow>
+     <TextView android:text="Address"
+         android:layout_width="0px"
+         android:layout_height="wrap_content" android:layout_weight="1"
+                  android:textSize="12sp"
+         android:typeface="serif"
+         android:textStyle="bold"
+         />
+         <TextView android:text="From"
+         android:layout_width="0px"
+         android:layout_height="wrap_content" android:layout_weight="1"
+                  android:textSize="12sp"
+         android:typeface="serif"
+         android:textStyle="bold"
+         />
+         <TextView android:text="Date"
+         android:layout_width="0px"
+         android:layout_height="wrap_content" android:layout_weight="1"
+                  android:textSize="12sp"
+         android:typeface="serif"
+         android:textStyle="bold"
+         />
+         </TableRow>
+</TableLayout>

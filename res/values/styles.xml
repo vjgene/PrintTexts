@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="CustomTheme" parent="android:style/Theme.Light">
+<item name="android:windowNoTitle">true</item>
+
+
+<!--<item name="android:colorForeground">#fff</item>-->
+
+<!--<item name="TextColor">@drawable/solid_red</item>-->
+<!--<item name="android:windowFrame">@drawable/screen_frame</item>
+<item name="android:windowBackground">@drawable/solid_red</item>-->
+<!--<item name="panelForegroundColor">#FF000000</item>
+<item name="panelBackgroundColor">#FFFFFFFF</item>
+<item name="panelTextColor">#FF000000</item>
+<item name="panelTextSize">14</item>
+<item name="menuItemTextColor">#FF000000</item>
+<item name="menuItemTextSize">14</item>-->
+</style>
+</resources>

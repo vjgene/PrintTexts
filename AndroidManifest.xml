@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+     package="com.ewebcomputing.printtexts" android:versionCode="1" android:versionName="1.0">
+          <uses-permission android:name="android.permission.READ_SMS"> 
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+     <uses-permission android:name="android.permission.INTERNET"/>
+      <uses-permission android:name="android.permission.READ_CONTACTS"/>
+   <application  android:debuggable="true" 
+ android:icon="@drawable/balance"  android:label="PrintTexts" >
+    <activity android:name=".Splash" android:label="PrintTexts"  android:theme="@android:style/Theme.NoDisplay"
+    android:launchMode="standard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    <activity android:name=".PrintTexts" android:label="PrintTexts" android:theme="@style/Theme.Background">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MailTo" android:label="Email">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                 <data android:mimeType="application/pdf" />
+            </intent-filter>
+        </activity>                
+    </application> 
+     <uses-sdk android:minSdkVersion="1"></uses-sdk>
+</manifest>

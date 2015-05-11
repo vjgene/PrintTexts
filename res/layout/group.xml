@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@android:id/text1"
+        android:layout_marginTop="1dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="36dip"
+        android:paddingTop="6dip"
+        android:paddingBottom="6dip"
+        android:paddingRight="0dip"
+        android:textColor="#FFFFFF"
+         android:background="#000000"
+        />
+        <!--
+        android:checked="false"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+       android:clickable="true"
+/>-->
